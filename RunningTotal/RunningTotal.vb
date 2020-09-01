@@ -42,7 +42,7 @@ Module RunningTotal
 
             ElseIf userInput = "2" Then
                 taxAmount = runningTotal * TAXRATE
-                Console.WriteLine("Tax: " & CStr(runningTotal * TAXRATE).ToString("C"))
+                Console.WriteLine("Tax: " & taxAmount.ToString("C"))
             Else
                 'promppt user
             End If
